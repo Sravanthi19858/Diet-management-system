@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('header-image.jpg'); /* Replace with an image of your choice */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content {
+    background-color: rgba(0, 122, 59, 0.81); /* Semi-transparent background for text */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 16px;
+}

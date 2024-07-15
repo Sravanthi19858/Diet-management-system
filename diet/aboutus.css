@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('aboutusimage.jpg'); /* Replace with an image of your choice */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    max-width: 100%;
+}
+
+.feature h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 16px;
+}
